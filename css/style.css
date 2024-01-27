@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
 }
 #header nav .nav1 {
   display: flex;
@@ -38,14 +38,11 @@
   height: 100%;
 }
 
-#main-2 {
-  height: 70vh;
-}
-
 .lista-precios {
   width: 100%;
 }
 
+/* Video institucional */
 .video-i p {
   font-size: 1.8rem;
   font-weight: 700;
@@ -55,6 +52,96 @@
 .video-i iframe {
   width: 100%;
   height: 100vh;
+}
+
+/* Quienes somos */
+#main-2 {
+  height: 70vh;
+}
+#main-2 p {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 35px;
+}
+
+.div-qs {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 20px 300px 50px 300px;
+}
+.div-qs img {
+  height: 400px;
+  width: 600px;
+}
+.div-qs span {
+  color: rgba(0, 0, 0, 0.527);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.negrita {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Historia */
+#main-2 {
+  height: 70vh;
+}
+#main-2 p {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 35px;
+}
+
+.div-h {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 20px 300px 50px 300px;
+}
+.div-h img {
+  height: 400px;
+  width: 600px;
+}
+.div-h span {
+  color: rgba(0, 0, 0, 0.527);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.negrita {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Contacto */
+#main-2 {
+  height: 70vh;
+}
+#main-2 p {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+}
+
+.div-contacto1 {
+  padding: 10px 650px;
+}
+
+.bt-ct {
+  display: flex;
+  justify-content: center;
+}
+
+#main-2 iframe {
+  width: 100%;
 }
 
 footer .section-1 {
