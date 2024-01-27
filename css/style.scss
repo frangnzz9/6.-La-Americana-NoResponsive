@@ -1,0 +1,46 @@
+@import './base/variables';
+@import './base/listas';
+@import './base/maps';
+@import './base/mixin';
+@import './base/extend';
+
+@import './componentes/header';
+@import './componentes/main';
+@import './componentes/footer';
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    a{
+        text-decoration: none;
+    }
+}
+
+#contenedor{
+    display: grid;
+    grid-template-areas: 'header' 
+    'main'
+    'footer';
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+
+body{
+    padding-top: 100px;
+}
+

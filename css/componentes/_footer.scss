@@ -1,0 +1,84 @@
+footer .section-1{
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    padding: 25px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    p{
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding-bottom: 1rem;
+        display: flex;
+        justify-content: flex-start;
+      }
+    li,
+    .id-correo{
+        display: flex;
+        justify-content: flex-start;
+        color: rgba(255, 255, 255, 0.342);
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    a{
+        color: rgba(255, 67, 67, 0.63);
+        &:hover{
+            color: white;
+        }
+    }
+}
+
+#span1{
+    color: rgba(255, 255, 255, 0.342);
+}
+
+ul{
+    padding-left: 0rem;
+  }
+
+.id-correo:hover{
+    color: white;
+}
+
+.div-menu{
+    display: flex;
+    gap: 2rem;
+}
+
+.section-1{
+    border-top: solid white 1px;
+    border-bottom: solid white 8px;
+}
+
+/* SECTION 2 */
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.div-icon{
+    display: flex;
+    gap: 50px;
+    font-size: 1.5rem;
+    a{
+       color: white;
+       padding: 6px 15px;
+       border: 1px solid white;
+       border-radius:50%;
+    }
+    .a-ig:hover{
+        background: #d6249f;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+        }
+
+    .a-fb:hover{
+        background-color: rgb(4, 94, 124);
+    }
+}
