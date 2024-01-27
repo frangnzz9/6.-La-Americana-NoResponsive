@@ -87,7 +87,7 @@
 }
 
 /* Contacto */
-#main-2{
+#main-5{
     height: 70vh;
     p{
         font-size: 1.8rem;
@@ -103,8 +103,13 @@
 .bt-ct{
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
-#main-2 iframe{
+#main-5 iframe{
     width: 100%;
+}
+
+#main-5{
+    height: 1040px;
 }

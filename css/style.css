@@ -121,10 +121,10 @@
 }
 
 /* Contacto */
-#main-2 {
+#main-5 {
   height: 70vh;
 }
-#main-2 p {
+#main-5 p {
   font-size: 1.8rem;
   font-weight: 700;
   text-align: center;
@@ -138,10 +138,15 @@
 .bt-ct {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
-#main-2 iframe {
+#main-5 iframe {
   width: 100%;
+}
+
+#main-5 {
+  height: 1040px;
 }
 
 footer .section-1 {
